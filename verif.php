@@ -9,7 +9,7 @@ $query = mysqli_query($db , "UPDATE pengguna SET verif='1' WHERE gmail = '$email
 if($query){
     echo "
     <script>
-    alert('Selamat Sudah Verif, Silahkan Login')
+    alert('Selamat Sudah Verif')
     document.location.href='login.php';
     </script>
     ";
